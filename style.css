@@ -16,7 +16,7 @@
     padding: 30px;
 }
 
-.container {
+.clock {
     position: relative;
     background: #382fc9;
     border-radius: 25px;
@@ -32,13 +32,6 @@
     align-items: center;
     padding: 20px;
     flex-direction: column;
-
-}
-
-.clock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .head {
