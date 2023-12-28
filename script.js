@@ -4,6 +4,7 @@ let second = document.querySelector("#sc")
 let hours = document.querySelector(".hours")
 let minutes = document.querySelector(".minutes")
 let seconds = document.querySelector(".seconds")
+let apm = document.querySelector(".ampm")
 
 setInterval(() => {
     let day = new Date
@@ -29,6 +30,7 @@ setInterval(() => {
     hours.innerText = h
     minutes.innerText = m
     seconds.innerText = s
+    apm.innerText = ampm
 
     hour.style.transform = `rotate(${hr + (mn / 12)}deg)`
     minute.style.transform = `rotate(${mn}deg)`
